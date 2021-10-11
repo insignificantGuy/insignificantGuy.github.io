@@ -1,0 +1,134 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	font-family: 'roboto';
+}
+
+h5{
+	font-size: 18px;
+}
+
+#heading{
+	width: 100%;
+	display: flex;
+}
+
+.headClass{
+	margin: 0px;
+	font-size: 16px;
+}
+
+.headClass:nth-child(2){
+	margin-left: 160px;
+}
+
+.headClass > h1{
+	font-size: 26px;
+	margin: 0px;
+	color: blue;
+}
+
+.RSS{
+	height: 12px;
+	width: 18px;
+	border-radius: 5px;
+	border: none;
+	font-size:6px;
+	padding: 0px;
+	color: white;
+	background: orange;
+}
+
+.section{
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin: 40px 0px;
+	padding: 0px 10px;
+}
+
+.section > h5{
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+.section > p{
+	margin: 5px;
+	font-size: 18px;
+}
+
+#socialMedia{
+	display: flex;
+}
+
+#socialMedia > div{
+	margin: 0px 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #640F96;
+}
+
+.section > ul > li{
+	font-size: 18px;
+	margin: 5px 0px;
+}
+
+footer{
+
+}
+
+#mainFooter{
+	display: flex;
+}
+
+#mainFooter > div {
+	margin: 0px 80px;
+}
+
+#mainFooter > div > p{
+	font-size: 16px;
+}
+
+form > input {
+	height: 10px;
+	margin-top: 2px;
+}
+
+form > button {
+	height: 15px;
+	width:  30px;
+	font-size: 8px;
+	padding: 0px;
+}
+
+@media screen and (max-width: 620px) {
+  
+  #heading{
+  	display: block;
+  }
+
+  .headClass {
+  	font-size: 16px;
+  }
+
+  .headClass > h1{
+  	font-size: 20px;
+  }
+
+  .headClass:nth-child(2){
+  	margin: 0px 20px;
+  }
+
+  #mainFooter{
+  	display: block;
+  	padding: 5px;
+  }
+
+  #mainFooter > div {
+		margin: 10px;
+	}
+}

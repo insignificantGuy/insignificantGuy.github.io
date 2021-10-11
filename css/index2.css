@@ -1,0 +1,121 @@
+html{
+	width: 100vw;
+}
+
+body{
+	max-width: 100%;
+	padding: 0px 30px;
+	overflow-x: hidden;
+	font-family: 'roboto';
+}
+
+h1{
+	text-align: center;
+	font-size: 26px;
+}
+
+h4{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #640F96;
+}
+
+#section{
+	display: flex;
+}
+
+#section > div:nth-child(1){
+	height: 250px;
+	width: 300px;
+	border: 2px solid grey;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+#section > p {
+	margin: 0px;
+}
+
+#section > div > ul > li {
+	margin: 10px 0px;
+}
+
+#section > div > img{
+	height: 240px;
+	width: 300px;
+	margin-left: 100%;
+}
+
+section{
+	width: 100%;
+	margin: 40px 0px;
+}
+
+section > h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+section > p{
+	margin: 0px;
+	font-size: 16px;
+}
+
+section > ul >li, section > ol >li {
+	font-size: 16px;
+	margin: 10px 0px;
+}
+
+table, td{
+	border: 2px solid grey;
+}
+
+table{
+	margin: 30px 0px;
+}
+
+.language{
+	display: flex;
+	margin: 20px 0px;
+}
+
+.language > a > div {
+	margin: 0px 80px;
+}
+
+.language > a > div > img {
+	height: 54px !important;
+	width: 81px !important;
+}
+
+.language > a > div >p, span {
+	font-size: 16px;
+	margin: 0px;
+	color: black;
+}
+
+
+@media screen and (max-width: 620px) {
+	#section > div:nth-child(1){
+		height: 200px;
+		padding: 20px;
+		border-radius: 10px;
+		font-size: 12px;
+	}
+
+	#section > div:nth-child(2){
+		display: none;
+	}
+
+	.language{
+		display: block;
+	}
+
+	.language > a > div {
+		margin: 20px 0px;
+	}
+}
